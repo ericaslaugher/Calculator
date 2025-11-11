@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <!-- Dùng cho Accessibility (Content Description) -->
+    <string name="desc_clear">Xóa tất cả (Clear)</string>
+    <string name="desc_delete">Xóa (Backspace)</string>
+    <string name="desc_divide">Chia (Divide)</string>
+    <string name="desc_multiply">Nhân (Multiply)</string>
+    <string name="desc_subtract">Trừ (Subtract)</string>
+    <string name="desc_add">Cộng (Add)</string>
+    <string name="desc_equals">Bằng (Equals)</string>
+    <string name="desc_dot">Dấu chấm (Decimal)</string>
+</resources>
