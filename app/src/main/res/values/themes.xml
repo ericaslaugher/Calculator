@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--
-    Theme này sử dụng Material 3, cần thiết cho các màu
-    ?attr/color... và style của MaterialButton.
-    -->
+
     <style name="Theme.Calculator" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Tùy chỉnh theme của bạn tại đây -->
+
     </style>
 </resources>
