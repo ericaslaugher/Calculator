@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
     private void onNumberClick(String number) {
-        if (currentNumber.length() > 10) return; // Giới hạn độ dài số
+        if (currentNumber.length() > 10) return;
         currentNumber += number;
         updateDisplay(currentNumber);
     }
@@ -143,16 +143,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         }
 
-        // Lưu phép toán
         pendingOperator = operator;
         currentNumber = "";
 
-        // CẬP NHẬT PHÉP TÍNH
+
         updateExpression(decimalFormat.format(operand1) + " " + pendingOperator);
         updateDisplay("0");
     }
 
-    // Khi nhấn = (ĐÃ SỬA)
+
     private void onEqualsClick() {
 
         if (operand1 == null || pendingOperator == null || currentNumber.isEmpty()) {
@@ -185,7 +184,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 if (operand2 == 0) {
                     Toast.makeText(this, "Không thể chia cho 0", Toast.LENGTH_SHORT).show();
-                    onClearClick(); // Reset
+                    onClearClick();
                     return;
                 }
                 result = operand1 / operand2;
